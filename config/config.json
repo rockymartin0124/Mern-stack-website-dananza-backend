@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "",
+    "database": "Dananza",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define": {
+        "timestamps": false
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "dj@mw@r3",
+    "database": "secure_node",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": "dj@mw@r3",
+    "database": "secure_node",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "use_env_variable": "DATABASE_URL",
+    "define": {
+        "timestamps": false
+    }
+  }
+}
